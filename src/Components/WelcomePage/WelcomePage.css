@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.WelcomePage{
+    position: absolute;
+    width: 50vw;
+    height: 45vh;
+    left: 420px;
+    top: 184px;
+    
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input[type="text"]
+  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+  }
+  
+.player1{
+    position: absolute;
+    height: 25%;
+    width: 80%;
+    top:10%;
+    background-color: #DCF6E4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+.player1 div{
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    top:5%;
+    left:20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.player2{
+    position: absolute;
+    height: 25%;
+    width: 80%;
+    top:40%;
+    border-radius: 10px;
+    background-color: #F7EFD5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  
+  }
+.player2 div{
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    left:20%;
+    top:5%;
+    display: flex;
+    flex-direction: column;
+  }
+.buttonStartGame{
+    position: absolute;
+    height: 20%;
+    width: 80%;
+    top:70%;
+  }
+.buttonStartGame input{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 5%;
+    right: 0%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    background: #4B7BFF;
+    border-radius: 12px;
+    border: none;
+  }
+  
+.WelcomePage div image{
+    position: absolute;
+    width: 20%;
+    height: 90%;
+    top:5%
+  }
+
+.player1 div p{
+    position: absolute;
+    top:1%;
+    left:1%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #869189;
+  }
+  
+.player2 div p{
+    position: absolute;
+    top:1%;
+    left:1%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #869189;
+  }
+  
+.player1 div input{
+    position: absolute;
+    top:50%;
+    width: 90%;
+    height: 40%;
+    border: none;
+    border-bottom: 1px solid #949494;
+    background-color: transparent;
+    padding: 0%;
+  }
+  
+.player2 div input{
+    position: absolute;
+    top:50%;
+    width: 90%;
+    height: 40%;
+    border: none;
+    border-bottom: 1px solid #949494;
+    background-color: transparent;
+  }
+  
+.line{
+    position: relative;
+    width: 554px;
+    height: 1px;
+    left: 0px;
+    top:  70px;
+
+    background: #949494;
+  }
+
+
+.GamePage{
+    position: absolute;
+    width:  80vw;
+    height: 57vh;
+    left: 12vw;
+    top: 12vh;
+
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+  }
+
+
+
+.GamePage1{
+    width: 40vw;
+    height: 57vh;
+   
+    
+    background: #84A4FB;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+    align-self: flex-start;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.GamePage1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.GamePage2{
+    width: 40vw;
+    height: 57vh;
+    
+    
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Circle {
+    background-color: #FFFFFF;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+
+.GamePage2-Player1{
+     
+    height: 12%;
+    width: 50%;
+
+    background: #DCF6E4;
+    border: 1px solid #CCE2D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.GamePage2-Player2{
+
+    margin-top: 2%;
+     
+    height: 12%;
+    width: 50%;
+
+    background: #F7EFD5;
+    border: 1px solid #CCE2D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+
+.Heading{
+
+    width: 50%;
+    height: 36px;
+    margin-left: 4%; 
+    margin-top: 3%;
+    
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    align-self: center;
+    
+    color: #424242;
+}
+
+.Heading1{
+    height: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424242;
+}
+
+.Congratulations{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #FF6600;
+}
+.GamePage2-Image{
+   
+    border-radius: 50%;
+      
+}
+.Table{
+    padding-right: 0%;
+    border-collapse: separate;
+
+}
+
+
+.Th{
+    padding-right: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #869189;
+}
+
+.Td{
+    padding-right: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.GamePage2-Button1{
+
+    margin-top: 3%;
+    width: 280px;
+    height: 55px;
+   
+    color : white; 
+    background: #4B7BFF;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.GamePage2-Button2{
+
+    margin-top: 3%;
+    width: 280px;
+    height: 55px;
+   
+    color : red;
+    background: #FFFFFF;
+    border: 1px solid #E5ECFF;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+
+}
+
+
+
+@media screen and (max-width: 912px){
+
+    .WelcomePage{
+        width: 95vw;
+        height: 60vh;
+        left: 2.5vw;
+        top: 20vh;
+      }
+
+    .player1 img{
+        margin-top: 10%;
+        width: 30%;
+        height: 60%;
+    }
+
+    .player1 div{
+
+        position: absolute;
+        width: 65%;
+        top:5%;
+        left:35%;
+    }
+
+    .player2 img{
+        margin-top: 10%;
+        width: 30%;
+        height: 60%;
+    }
+
+    .player2 div{
+
+        position: absolute;
+        width: 65%;
+        top:5%;
+        left:35%;
+    }
+    
+    .line{
+        position: relative;
+        width: 80%;
+        height: 1px;
+        left: 0px;
+        top:  18%;
+    
+        background: #949494;
+      }
+
+      .GamePage{
+        position: absolute;
+        width:  95vw;
+        height: 100%;
+        left: 12vw;
+        top: 12vh;
+    
+        background: #FFFFFF;
+        border: 1px solid #F7F7F7;
+        box-sizing: border-box;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 30px;
+    
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+      } 
+      
+      .GamePage1{
+        width: 95vw;
+        height: 120vw;
+       
+        
+        background: #84A4FB;
+        border: 1px solid #F7F7F7;
+        box-sizing: border-box;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 30px;
+        align-self: flex-start;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    .Circle {
+        background-color: #FFFFFF;
+        margin-left: 2%;
+        margin-top: 1vh;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 30px;
+        background: #FFFFFF;
+    }
+
+    .GamePage1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .GamePage2{
+        width: 95vw;
+        height: 50%;
+        
+        background: #FFFFFF;
+        border: 1px solid #F7F7F7;
+        box-sizing: border-box;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 30px;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Heading{
+
+        width: 80vw;
+        height: 36px;
+        margin-left: 55px; 
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #424242;
+    }
+
+    .Heading1{
+        height: 36px;
+    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #424242;
+    }
+    
+    .GamePage2-Player1{
+     
+        height: 12%;
+        width: 65%;
+    
+        background: #DCF6E4;
+        border: 1px solid #CCE2D3;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+
+    .GamePage2-Player2{
+     
+        height: 12%;
+        width: 65%;
+    
+        background: #DCF6E4;
+        border: 1px solid #CCE2D3;
+        box-sizing: border-box;
+        border-radius: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      
+    }
+   
+    .Table{
+        padding-right: 0%;
+    
+    }
+
+    .Th{
+        padding-right: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        
+        color: #869189;
+    }
+    
+    .Td{
+        padding-right: 50px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+
+
+
+
+}
+  
